@@ -1,0 +1,48 @@
+#intro{
+  position: relative;
+  color: aliceblue;
+  background-image: url(../assets/Background_Intro.png);
+  height: 750px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-inline: 167px;
+  padding-top: 120px;
+
+  div{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    
+    #nome{
+      color: var(--color-red);
+    }
+  }
+
+  h2{
+    margin-block: 56px 8px;
+  }
+
+  p{
+    margin-block: 20px 80px;
+  }
+}
+
+#tags{
+  display: grid;
+  grid-auto-flow: column;
+  gap: 16px;
+  margin-bottom: 94px;
+  span{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px 8px 16px;
+    background-color: var(--gray-300);
+    border-radius: 999px;
+    justify-content: center;
+    color: var(--gray-500);
+  }
+
+  
+
+}
