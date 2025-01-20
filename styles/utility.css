@@ -50,3 +50,45 @@
  .gray-600{
   color: var(--gray-600); 
  }
+
+ .red {
+  color: var(--color-red);
+ }
+
+ .gap-24{
+  gap:24px;
+ }
+
+ .grid-3x2{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr);
+ }
+
+ .card{
+  display: grid;
+  background-color: var(--gray-300);
+  padding: 12px;
+  gap: 20px;
+  border-radius: 12px;
+  outline: 1.5px solid transparent;
+  border: none;
+  border-color: transparent;
+  transition: outline-color 0.5s ease;
+
+  img{
+    border-radius: 8px;
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+  &:hover{
+    outline: 1.5px solid var(--gray-400);
+   }
+}
+
+ .card-text{
+  display: grid;
+  padding: 4px;
+  gap: 8px;
+ }

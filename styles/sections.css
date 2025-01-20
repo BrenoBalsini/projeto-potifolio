@@ -12,10 +12,6 @@
     display: grid;
     justify-content: center;
     text-align: center;
-    
-    #nome{
-      color: var(--color-red);
-    }
   }
 
   h2{
@@ -42,7 +38,18 @@
     justify-content: center;
     color: var(--gray-500);
   }
+}
 
-  
+#destaques{
+  display: grid;
+  gap: 56px;
+  padding-inline: 120px;
+  padding-block: 72px 144px;
+  background-color: var(--gray-200);
 
+  header{
+    display: grid;
+    gap:8px;
+    text-align: center;
+  }
 }
