@@ -53,3 +53,81 @@
     text-align: center;
   }
 }
+
+#servicos{
+  display: grid;
+  gap: 56px;
+  padding-inline: 120px;
+  padding-block: 72px 144px;
+  background-color: transparent;
+  
+  header{
+    display: grid;
+    gap:8px;
+    text-align: center;
+  }
+}
+
+#contato{
+  display: grid;
+  grid-auto-flow: row;
+  gap: 48px;
+  justify-content: center;
+  padding: 128px 120px 200px 120px;
+  background-image: url(../assets/Background_Contacts.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  header{
+    display: grid;
+    text-align: center;
+    gap:8px;
+  }
+  section{
+    display: grid;
+    gap: 16px;
+  }
+  
+  div{
+    display: flex;
+    max-width: 400px;
+    justify-content: space-between;
+    background-color: var(--gray-300);
+    border-radius: 8px;
+    border:solid;
+    border-width: 1.5px;
+    border-color: transparent;
+    transition: border-color 300ms ease-in-out;
+
+    
+    padding: 20px;
+    gap: 12px;
+    align-items: center;
+    justify-items: center;
+    
+    
+    p{
+      flex-grow: 1;
+    }
+    
+    img{
+      align-self: center;
+    }
+    
+    svg{
+      align-self: center;
+      justify-self: center;
+      transition: fill 300ms ease-in-out;
+    }
+    
+    &:hover{
+    border-color: var(--color-blue);
+    
+    svg{
+      fill: var(--color-blue);
+    }
+  }
+  
+
+}
+}
