@@ -23,6 +23,28 @@
   }
 }
 
+#avatar{
+
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  margin: 0;
+  height: 112px;
+  width: 112px;
+
+  img{
+    position: absolute;
+    justify-self: center;
+  }
+
+  #vector{
+    position: absolute;
+    justify-self: end;
+    align-self: end;
+  }
+  
+}
+
 #tags{
   display: grid;
   grid-auto-flow: column;
@@ -87,7 +109,7 @@
     display: grid;
     gap: 16px;
   }
-  
+
   div{
     display: flex;
     max-width: 400px;
